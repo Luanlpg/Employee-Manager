@@ -15,7 +15,7 @@ Aplicativo para gerenciar informações dos funcionários, como nome, e-mail e d
 
 ## Rodando o server da API
 
-- Acesse o prijeto django com: `cd manager`
+- Acesse o projeto django com: `cd manager`
 
 - Rode as migrações do projeto: `python manage.py migrate`
 
@@ -39,5 +39,13 @@ que já está pronta com o comando: `python manage.py loaddata luizalabs.json`
     basta você clicar em "Employee List" na parte superior da tela.
     - Cada funcionário possui um link que direciona para a page de detalhes, lá também
     é possível editar(remover, alterar) o funcionário.
+    - Para fazer a edição basta inserir um json com as alterações.
 
 - também é possivel fazer requisições com o comando: `curl -H "Content-Type: application/javascript" http://localhost:8000/api/employee/`
+
+
+
+## EXTRA
+
+- Meses atrás havia feito outra API para o Luizalab que achei um pouco mais interessante,
+o repositório é: `https://github.com/Luanlpg/Salas_lab.git`
